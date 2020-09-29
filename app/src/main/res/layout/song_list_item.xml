@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="4dp"
+    app:cardBackgroundColor="#247ba0"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:text="1"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#810F1E2E"
+            android:layout_marginLeft="8dp"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dunavom"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#f3ffbd"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/textView1"
+            android:layout_marginStart="16dp"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Željko Bebek"
+            android:textSize="18sp"
+            android:textColor="#b2dbbf"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/textView1"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="16dp"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:textColor="#70c1b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:24 sec "
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/textView1"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="16dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
